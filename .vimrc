@@ -24,6 +24,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 
 " git repos on your local machine (i.e. when working on your own plugin)
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter' " power commenting!
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
@@ -48,6 +49,10 @@ Plugin 'shawncplus/phpcomplete.vim'
 " Plugin that shows indention levels
 Plugin 'git@github.com:nathanaelkane/vim-indent-guides.git'
 
+Plugin 'fatih/vim-go' " golang helpers
+
+Plugin 'ntpeters/vim-better-whitespace' " highlight and strip whitespace
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -63,7 +68,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "
-autocmd vimenter * NERDTree
 " Color settings
 let &t_Co=256
 syntax enable
