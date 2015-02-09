@@ -25,9 +25,6 @@ Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
 Plugin 'scrooloose/nerdtree'
 
-" nerdtree issue fixer
-Plugin 'git@github.com:Nopik/vim-nerdtree-direnter.git'
-
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -38,8 +35,10 @@ Plugin 'tomasr/molokai'
 " PHP Plugins for vim
 " Syntax check for php
 Plugin 'StanAngeloff/php.vim'
+
 " Auto namespacing
 Plugin 'arnaud-lb/vim-php-namespace'
+
 " Indention for php
 Plugin '2072/PHP-Indenting-for-VIm'
 
