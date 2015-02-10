@@ -4,48 +4,47 @@ This repo just provides you with a vimrc file for quick setup of your vim editor
 
 ### Plugins provided by this vimrc file ###
 
-" let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+let Vundle manage Vundle, required
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-
-" plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
+I'm not going to lie to you; fugitive.vim may very well be the best Git wrapper of all time
 
-" plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
+plugin from http://vim-scripts.org/vim/scripts.html
 
-" Git plugin not hosted on GitHub
+Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 
-" git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter' " power commenting!
+The NERD tree allows you to explore your filesystem and to open files and directories
+[https://github.com/scrooloose/nerdtree]() 'scrooloose/nerdtree'
 
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'scrooloose/nerdcommenter'
+Comment with power!
 
-" The molokai theme for vim
+Plugin 'rstacruz/sparkup'
+The sparkup vim script is in a subdirectory of this repo called vim.
+
 Plugin 'tomasr/molokai'
+The molokai theme for vim
 
-" PHP Plugins for vim
-" Syntax check for php
 Plugin 'StanAngeloff/php.vim'
+Syntax check for php
 
-" Auto namespacing
 Plugin 'arnaud-lb/vim-php-namespace'
+Auto namespacing
 
-" Indention for php
 Plugin '2072/PHP-Indenting-for-VIm'
+Indention for php
 
-" Auto completion for php
 Plugin 'shawncplus/phpcomplete.vim'
+Auto completion for php
 
-" Plugin that shows indention levels
 Plugin 'git@github.com:nathanaelkane/vim-indent-guides.git'
+Plugin that shows indention levels
 
-Plugin 'fatih/vim-go' " golang helpers
+Plugin 'fatih/vim-go'
+Golang helpers
 
 Plugin 'ntpeters/vim-better-whitespace' " highlight and strip whitespace
+Trims whitespace at the end of line
