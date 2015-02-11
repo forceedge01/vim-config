@@ -36,10 +36,8 @@ Plugin 'tomasr/molokai'
 " PHP Plugins for vim
 " Syntax check for php
 Plugin 'StanAngeloff/php.vim'
-
 " Auto namespacing
 Plugin 'arnaud-lb/vim-php-namespace'
-
 " Indention for php
 Plugin '2072/PHP-Indenting-for-VIm'
 
@@ -68,6 +66,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "
+"autocmd vimenter * NERDTree
 " Color settings
 let &t_Co=256
 syntax enable
@@ -92,5 +91,9 @@ augroup END
 set makeprg=php\ -l\ %
 set errorformat=%m\ in\ %f\ on\ line\ %l
 
-" enable line numnbers 
+" enable line numnbers
 set number
+
+" Insert spaces in place of tabs config
+set expandtab
+set tabstop=4
