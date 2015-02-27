@@ -1,6 +1,11 @@
 # general aliases
 alias ll="ls -la"
 alias home="cd ~"
+alias key="cat ~/.ssh/id_rsa.pub"
+alias hosts="cat /etc/hosts"
+alias ehosts="vim /etc/hosts"
+alias vhosts="vim /etc/httpd/conf/vhosts"
+alias reload="source ~/.bash_profile"
 
 # git aliases
 alias gs="git status"
