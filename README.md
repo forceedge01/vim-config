@@ -4,9 +4,7 @@ This repo just provides you with a vimrc file for quick setup of your vim editor
 
 ## Running the program and setting up the config run
 ```
-git clone git@github.com:forceedge/vim-config.git ~/vim-config
-chmod 777 ~/vim-config/init.sh
-~/vim-config/init.sh
+git clone git@github.com:forceedge/vim-config.git ~/vim-config; chmod 777 ~/vim-config/init.sh; cd ~/vim-config/; ./init.sh; cd
 ```
 
 ### Plugins provided by this vimrc file ###
