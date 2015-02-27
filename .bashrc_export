@@ -1,0 +1,8 @@
+# general aliases
+alias ll="ls -la"
+alias home="cd ~"
+
+# git aliases
+alias gs="git status"
+alias save="git add --all; git commit"
+alias gpush="git push"
