@@ -3,11 +3,11 @@
 This repo just provides you with a vimrc file for quick setup of your vim editor to support golang and PHP projects. In order to use the .vimrc file provided you would need to install vundle for vim, you can get it [https://github.com/gmarik/Vundle.vim]()
 
 ## Running the program and setting up the config run
- `
+```
 git clone git@github.com:forceedge/vim-config.git ~/vim-config
 chmod 777 ~/vim-config/init.sh
 ~/vim-config/init.sh
-`
+```
 
 ### Plugins provided by this vimrc file ###
 
